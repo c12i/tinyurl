@@ -4,12 +4,12 @@
 //!# Example
 //! - Builder
 //!```rust
-//! use tinyurl::TinyURL;
-//! // without alias
-//! let short = TinyURL::new("https://example.com").build();
-//! assert!(short.is_ok());
+//!use tinyurl::TinyURL;
+//!// without alias
+//!let short = TinyURL::new("https://example.com").build();
+//!assert!(short.is_ok());
 //!
-//! // with alias
+//!// with alias
 //!let aliased = TinyURL::new("https://example.com")
 //!            .alias("some-random-nickname")
 //!            .build();
@@ -18,7 +18,7 @@
 //!
 //! - Macro
 //!```rust
-//! use tinyurl::tiny;
+//!use tinyurl::tiny;
 //!
 //! // without alias
 //!let short = tiny!("https://github.com");
