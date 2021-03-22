@@ -1,5 +1,9 @@
 # tinyurl
 
+<a href="https://crates.io/crates/tinyurl" target="_blank">
+     <img alt="Version" src="https://img.shields.io/crates/v/tinyurl" />
+</a>
+
 An abstraction on top the [tinyurl](https://tinyurl.com) API in rust for quickly generating short urls.
 
 ## Library
