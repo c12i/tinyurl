@@ -11,10 +11,10 @@ An abstraction on top the [tinyurl](https://tinyurl.com) API in rust for quickly
 -   Builder
 
 ```rust
- use tinyurl::TinyURL;
+use tinyurl::TinyURL;
  // without alias
- let short = TinyURL::new("https://example.com").build();
- assert!(short.is_ok());
+let short = TinyURL::new("https://example.com").build();
+assert!(short.is_ok());
 
  // with alias
 let aliased = TinyURL::new("https://example.com")
@@ -26,7 +26,7 @@ assert!(aliased.is_ok());
 -   Macro
 
 ```rust
- use tinyurl::tiny;
+use tinyurl::tiny;
 
  // without alias
 let short = tiny!("https://github.com");
