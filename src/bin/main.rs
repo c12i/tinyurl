@@ -33,7 +33,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                 println!("{}", short);
             }
         }
-        _ => println!("Something went wrong, ensure the url/ alias is valid."),
+        _ => println!("Something went wrong..."),
     }
 
     Ok(())
