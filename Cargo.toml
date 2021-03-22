@@ -1,11 +1,11 @@
 [package]
 name = "tinyurl"
-version = "0.1.0"
+version = "0.1.1"
 description = "An abstraction on top the tinyurl API in rust for quickly generating short urls."
 authors = ["Collins Muriuki <murerwacollins@gmail.com>"]
 edition = "2018"
-keywords = ["url", "api", "cli", "url_shortener"]
-repository = "https://github.com/collinsmuriuki/tuli"
+keywords = ["url", "api", "cli", "url_shortener", "tinyurl"]
+repository = "https://github.com/collinsmuriuki/tinyurl"
 readme = "README.md"
 license = "MIT"
 

@@ -6,6 +6,9 @@
 <a href="https://travis-ci.com/collinsmuriuki/tinyurl" target="_blank">
     <img alt="tinyurl travis-ci" src="https://travis-ci.com/collinsmuriuki/tinyurl.svg?branch=master" />
 </a>
+<a href="https://docs.rs/tinyurl" target="_blank">
+    <img alt="Documentation" src="https://docs.rs/tinyurl/badge.svg" />
+</a>
 
 An abstraction on top the [tinyurl](https://tinyurl.com) API in rust for quickly generating short urls.
 
